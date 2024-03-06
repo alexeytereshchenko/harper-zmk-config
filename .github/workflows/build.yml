@@ -1,4 +1,7 @@
-on: [push, pull_request, workflow_dispatch]
+name: Build keyboard
+run-name: Building keyboard
+
+on: [workflow_dispatch]
 
 jobs:
   build:
