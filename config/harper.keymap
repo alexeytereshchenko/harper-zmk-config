@@ -28,7 +28,7 @@
                                                                     &kp RGUI                                                              &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC PG_C_BRIGHTNESS_INCUP>;
         };
 
         lower_layer {
@@ -41,7 +41,7 @@
                                                                              &kp RGUI                                                                     &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         raise_layer {
@@ -54,7 +54,7 @@
                                                                                             &kp RGUI                                                              &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         adjust_layer {
@@ -67,7 +67,7 @@
                                                                                                                                                                                                        &kp RGUI                                                                &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
     };
 };
