@@ -28,7 +28,7 @@
                                                                     &kp RGUI                                                              &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC PG_C_BRIGHTNESS_INCUP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         lower_layer {
