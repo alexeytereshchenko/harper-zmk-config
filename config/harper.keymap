@@ -46,12 +46,12 @@
 
         raise_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans            &trans     &trans     &trans     &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                  &kp PG_UP         &trans     &kp UP     &trans     &kp N0   &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                &kp PG_DN         &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans                  &kp C_MUTE        &trans     &trans     &trans     &trans   &trans
-&trans      &trans        &kp LCTRL     &mo 1         &mo 2         &mo ADJ       &kp LALT  &kp LEFT_COMMAND  &kp SPACE  &kp ENTER  &mo RSE    &mo 1    &mo 3     &kp RALT
-                                                                                            &kp RGUI                                                              &kp RCTRL
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans            &trans     &trans     &trans        &trans      &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                  &kp PG_UP         &trans     &trans     &trans        &kp DELETE  &kp BACKSPACE
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                &kp PG_DN         &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT   &trans
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans                  &kp C_MUTE        &trans     &trans     &trans        &trans      &trans
+&trans      &trans        &kp LCTRL     &mo 1         &mo 2         &mo ADJ       &kp LALT  &kp LEFT_COMMAND  &kp SPACE  &kp ENTER  &mo RSE       &mo 1       &mo 3          &kp RIGHT_COMMAND
+                                                                                            &kp RALT                                                                         &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
