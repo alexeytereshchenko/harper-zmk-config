@@ -67,7 +67,7 @@
                                                                                                                                                                                                        &kp RGUI                                                                &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp CONFIG_ZMK_RGB_UNDERGLOW_HUE_STEP CONFIG_ZMK_RGB_UNDERGLOW_HUE_STEP &inc_dec_kp CONFIG_ZMK_RGB_UNDERGLOW_SAT_STEP CONFIG_ZMK_RGB_UNDERGLOW_SAT_STEP>;
+            sensor-bindings = <&inc_dec_kp RGB_HUI RGB_HUD &inc_dec_kp RGB_SAI RGB_SAD>;
         };
     };
 };
