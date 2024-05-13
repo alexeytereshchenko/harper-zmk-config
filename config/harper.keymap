@@ -41,7 +41,7 @@
                                                                              &kp RGUI                                                                     &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
         raise_layer {
@@ -67,7 +67,7 @@
                                                                                                                                                                                                        &kp RGUI                                                                &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
+            sensor-bindings = <&inc_dec_kp CONFIG_ZMK_RGB_UNDERGLOW_HUE_STEP CONFIG_ZMK_RGB_UNDERGLOW_HUE_STEP &inc_dec_kp CONFIG_ZMK_RGB_UNDERGLOW_SAT_STEP CONFIG_ZMK_RGB_UNDERGLOW_SAT_STEP>;
         };
     };
 };
